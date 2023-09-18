@@ -1,0 +1,31 @@
+.main{
+    /* width: 100%; */
+    height: 6%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+    align-items: center;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 2px rgba(0,0,0,0.23);
+}
+.logoContainer{
+    height: 80%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    /* justify-content: space-between; */
+}
+.logoContainer img{
+    height: 100%;
+}
+.profileContainer{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 5%;
+}
+.profileContainer p{
+    margin: 0;
+    font-size: 1.2em;
+}

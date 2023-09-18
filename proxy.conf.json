@@ -1,0 +1,7 @@
+{
+    "/api": {
+      "target": "https://nodeapi-9h7z.onrender.com",
+      "secure": false
+    }
+  }
+  

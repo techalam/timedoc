@@ -1,0 +1,52 @@
+.sidebar {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    top: 6%;
+    left: 0;
+    /* background-color: #333; */
+    /* padding-top: 20px; */
+    text-align: center;
+    box-shadow: 1px 1px 1px #ccc;
+  }
+  .logoContainer{
+    height: 5%;
+    text-align: left;
+    padding: 0 5%;
+  }
+  .logoContainer img{
+    height: 90%;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.3em;
+    padding: 0;
+    height: 45%;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    /* margin-bottom: 10px; */
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    padding: 0 7%;
+    height: 15%;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 2px rgba(0,0,0,0.23);
+  }
+  
+  .sidebar ul li a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar ul li:hover {
+    /* background-color: #e5e2e2; */
+    background-color: lightblue;
+  }
+  

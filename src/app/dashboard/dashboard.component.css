@@ -1,0 +1,69 @@
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+} */
+
+.dashboard {
+    background-color: #fff;
+    padding: 20px;
+    margin: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* border-radius: 5px; */
+    height: 88.5%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 31%;
+}
+.stat2Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1%;
+}
+.stat-card2{
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.stat-card h2 {
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Styling for the statistics */
+.statistics {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling for the batch and unpaid student lists */
+.list {
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-height: 150px;
+    overflow-y: auto;
+}
